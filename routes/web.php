@@ -1,6 +1,9 @@
 <?php
 
+use App\Models\Todo;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TodoController;
+use App\Http\Controllers\ChangeTodoStatusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('welcome',[
+        'currentTodo' => Todo::where('done', false)->count(),
+        'finishedTodo' => Todo::where('done', true)->count(),
+    ]);
+})->name('welcome');
+
+Route::resource('todo', TodoController::class);
+Route::get('/{todo}/change-staus', ChangeTodoStatusController::class)->name('status-update');
