@@ -1,6 +1,6 @@
-# A Laravel with MySQL template on Gitpod
+# TODO app (completed by the use of GitPod, Laravel MySQL template)
 
-This is a [Laravel with MySQL](https://laravel.com) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a basic todo app configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
