@@ -6,7 +6,7 @@ This is a [Laravel with MySQL](https://laravel.com) template configured for ephe
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-php-laravel-mysql)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mattyr3200/GDSC-todo-app)
 
 ## Get Started With Your Own Project
 
