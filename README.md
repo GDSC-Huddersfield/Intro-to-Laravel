@@ -1,25 +1,22 @@
-# A Laravel with MySQL template on Gitpod
+# GDSC Laravel from Scratch Week 2
 
-This is a [Laravel with MySQL](https://laravel.com) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a [Laravel with MySQL](https://laravel.com) application developed for week 2 of laravel from scratch.
 
-## Next Steps
+## To Open On gitpod
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-php-laravel-mysql)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mattyr3200/GDSC-todo-api)
 
-## Get Started With Your Own Project
+## TODO:
+- Add validation for requests.
+- more testing around that validation
+- make TODO's belong to users
+- make policy so a user can only manipulate there own todos.
 
-### A new project
-
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
-
-### An existing project
-
-To get started with Laravel with MySQL on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
 
 ## Notes & caveats
 
-* The template was generated using `curl -s "https://laravel.build/example-app" | bash` then moving the contents down to the root directory.
-* [./gitpod.yml](./.gitpod.yml) updates `APP_URL` in the `.env` with the workspace address.
-* [./gitpod.yml](./.gitpod.yml) launches the Laravel server bound to `0.0.0.0` so that the server is accessible in Gitpod. 
+- This app was built in an hour bare that in mind when looking at the source code, there may be mistakes.
+- This api is only covering the basics of an API Next week we will look at adding Authentication to this application.
+- this example was built with TDD in mind but if you dont have experience with that you can use postman to test the API endpoints.
