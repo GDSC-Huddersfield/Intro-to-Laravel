@@ -9,7 +9,7 @@ class IndexTodoTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function show_all_tests()
+    public function show_all_todo()
     {
         $todo = Todo::factory()->create([
             'name' => "TEST NAME",
