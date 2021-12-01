@@ -227,6 +227,6 @@ If using the ```apiResource``` method, then remove the 5 routes created in previ
 
 ## Manual Testing
 
-Test all routes using [HoppScotch](https://hoppscotch.io).
+Test all routes using [HoppScotch](https://hoppscotch.io). You may also need to install the [HoppScotch Chrome Extension](https://chrome.google.com/webstore/detail/hoppscotch-browser-extens/amknoiejhlmhancpahfcfcfhllgkpbld) e.g. when on campus netwrok.
 
 Use ```php artisan route:list``` to view the API end points in your application.
